@@ -8,6 +8,8 @@ app.get('*', (req, res) => {
     res.redirect('/');
 })
 
+
+
 app.listen(port, () => {
     console.log(`App listening on port ${port}`);
 })
